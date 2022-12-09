@@ -76,7 +76,7 @@ button.addEventListener('click', () => {
         position:absolute;
         top:142px;
         left:892px;
-        ">R01 = ${R01} A</p>
+        ">R01 = ${R01}ohm</p>
 
         <p style="
         position:absolute;
