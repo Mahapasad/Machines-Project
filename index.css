@@ -1,0 +1,197 @@
+/* *{
+    box-sizing: border-box;
+    margin: 0;
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,300;1,200&family=Rubik+80s+Fade&family=Rubik+Vinyl&display=swap');
+body{
+    margin:0;
+    padding:0; 
+    background-image: url('2.png');
+    background-attachment: fixed;
+    background-size: cover;
+    /*background-color: #2C2E43; */
+    font-family: 'Kanit', sans-serif;
+}
+h1{
+    font-size: 4rem;
+    color: #FFC107;
+    padding: 3%;
+    text-align: center;
+    font-family: 'Rubik Vinyl', cursive;
+    /* font-family: 'Kanit', sans-serif; */
+}
+h2{
+    font-family: 'Kanit', sans-serif;
+}
+/* body {
+    background: rgb(247,246,220);   
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    text-transform: uppercase;
+    border-color: #FEE715FF;
+} */
+.container{
+    border-radius: 4rem;
+}
+legend{
+    color: yellowgreen;
+    font-family: 'Kanit', sans-serif;
+}
+.fldset{
+    border: 0.5rem solid #dbc689;
+    padding: 2.5%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    border-radius: 20px;
+    text-align: center;
+}
+.fldset legend{
+    font-size: 40px;
+    font-weight: bolder;
+    /* color: ; */
+}
+.input-1{
+    border: none;
+    display: flex;
+    justify-content: center;
+}
+.input-1::placeholder{
+    color: beige;
+}
+.input {
+    font-size: 1.7rem;
+    border: none;
+    border-bottom: 0.2rem solid beige;
+    background-color: transparent;
+    color: beige;
+    font-family: 'Kanit', sans-serif;
+}
+
+.input::placeholder{
+    color: beige;
+    font-family: 'Kanit', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.input:focus{
+    outline: none;
+    border-bottom: 0.2rem solid beige;
+    font-size: 2.2rem;
+}
+.input input[type=text], input[type=email]{
+    margin: 4%;
+}
+
+.btn{
+    margin: 1%;
+    padding: 0.9%;
+    border-radius: 15px;
+    font-size: 20px;
+    font-family: 'Kanit', sans-serif;
+    font-weight: bolder;
+    /* background-color: #CBD18F; */
+    background-color: #5CB8E4;
+}
+.btn:hover{
+    /* background-color: #8758FF; */
+    background-color: #8758FF;
+    color:  #F2F2F2;
+    border: 3px solid #8758FF;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    font-family: 'Kanit', sans-serif;
+}
+
+
+
+
+
+
+
+/* //here */
+/* .container h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.6rem;
+}
+.container-in{
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-left: 12%;
+    padding-right: 12%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.container-1{
+    border-right: 4px solid black;
+} */
+/* .input{
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid black;
+    display: block;
+    padding: 5%;
+    outline: none;
+    margin: 3% 0;
+    font-size: large;
+}
+
+
+::placeholder{
+    color: red;
+    font-family: monospace;
+    font-weight: bold;
+}
+.btn-container{
+    padding: 4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+p{
+    font-weight: 700;
+    font-size: 20px;
+    display: inline;
+}
+/* .btn{
+    margin: 1%;
+    padding: 1%;
+    border-radius: 20px;
+    width: 10%;
+    min-width: 100px;
+    color: black;
+    background-color: palegoldenrod;
+    font-size: large;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.btn:hover{
+    color: palegoldenrod;
+    background-color: red;
+} */
+
+table{
+    width: 90%;
+}
+th{
+    height: 40px;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    align-items: center;
+    font-size: 20px;
+    padding-inline: 2%;
+}
