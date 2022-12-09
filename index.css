@@ -195,3 +195,7 @@ table, th, td {
     font-size: 20px;
     padding-inline: 2%;
 }
+.NameRoll{
+    text-align: center;
+    color: palegoldenrod;
+}
